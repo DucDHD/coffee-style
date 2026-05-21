@@ -8,7 +8,12 @@ module.exports = {
         Karla: ["Karla", 'sans-serif']
       },
       colors: {
-        'light-coffee': '#C89F94'
+        'coffee': {
+          50: '#e8d6d0',
+          200 : '#C89F94',
+          400: '#A25F4b',
+          600: '#744838'
+        }
       },
       keyframes: {
         sliceDown: {
@@ -18,6 +23,9 @@ module.exports = {
       },
       animation: {
         sliceDown: 'sliceDown .4s ease-in-out',
+      },
+      backgroundImage: {
+        'slider-bg': 'url("./image/slider.jpg")'
       }
     },
   },
